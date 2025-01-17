@@ -1,0 +1,54 @@
+Welcome to the Mecca Region!
+Campus has been deserted for quite some time now! 
+As tradition, the yard is always the place to be! I know you're familiar with this scenery. But watch out! Rumor has it that alot has changed since we left. Ever since campus had been vacated, wild Pokemon escaped from the Smithsonian's National Zoo. They've found their way all over the district as residents have prepared and even adapted to the company of our new friends. Yet, one of these mysterious Pokemon haunts our cherished lands. 
+--
+The Yard
+A very sacred land, home to many decorated trees! You are in a grassy field with sidewalks paved in a space perfect for walking. In the North there is a gate. To the South there is a staircase. To the West there is a vacant bulding.
+  ~ Type "a" to look at the gate.
+  ~ Type "b" to open the gate.
+  ~ Type "c" to look at the staircase.
+  ~ Type "d" to go for a walk.
+  ~ Type "n"(north), "s"(south), or "w"(west) to go in the desired direction.
+-- 
+The Valley
+A long narrow valley full of beautiful flowers. To the North is a staircase that leads to a very sacred land. To the West lies a path with a sign that reads "HUH". To the East is a large, circular glass building.
+  ~ Type "n"(north), "w"(west), or "e"(east) to go in the desired direction.
+--
+Annex
+A large lavish building made entirely of glass. A woman sits in the distance with the biggest smile as she spots you. Next to her lies a big glass chamber with three items inside.
+  ~ Type "a" to talk to lady.
+  ~ Type "w"(west) to go in the desired direction.
+--
+Ms.Hollis: Hey there pumpkin! I am so delighted to see you back home, healthy and safe. I feel so much better now that I've seen you and your smiling face. You have a bright future ahead of you. Now lets get down to business shall we? As you might have heard, we have a little friend roaming around here on campus. Poor little thing. If you're gonna come back when campus reopens then you've gotta be ready as a Pokemon trainer! So I'm gonna make it you're job as a new and upcoming trainer to help that little sweet thing. All he needs is some guidance and you're the perfect person to give him just that. Here, take one of these Pokeballs. One of these little guys will soon become your best friend. Pick your favorite color. Choose wisely!
+
+Which starter Pokemon do you choose?
+  ~ Type "a" for red.
+  ~ Type "b" for blue.
+  ~ Type "c" for green.
+-- 
+Howard University Hospital 
+You follow a long path to a large brown brick building. You enter the lobby and see a surgeon at the front desk. There is a station to the right. 
+  ~ Type "a" to talk to surgeon.
+  ~ Type "b" to heal Pokemon.
+  ~ Type "e"(east) to go in the desired direction.
+--
+Surgeon Wayne Frederick: Hello there young trainer! I see you have found our fine facility. You can come here anytime your little friend is not feeling well to heal them. It is up to you to keep them healthy and strong!
+-- 
+Banneker
+You approach a building of what looks like a large recreation activity center. The door is unlocked. It appears to be vacant, so you walk in. There is a keycard left on the front desk. 
+  ~ Type "a" to look at the keycard.
+  ~ Type "b" to get keycard.
+  ~ Type "e"(east) to go in the desired direction.
+--
+Greene Stadium 
+You enter a wide-open, spacious grassy area. Perfect place for training!
+-- 
+Ms.Hollis: Great choice! Now go ahead and meet your new little pumpkin!
+  ~ Type "a" to look at Pokeball
+  ~ Type "b" to throw Pokeball
+--
+BATTLE!
+  ~ Type "n"(north), "w"(west), or "e"(east) to flee.
+  ~ Type "v" to fight.
+  ~ Type "x" to throw Pokeball
+
