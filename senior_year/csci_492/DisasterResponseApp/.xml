@@ -1,0 +1,665 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/example/disasterresponseapp10/ExampleInstrumentedTest.kt</file>
+  <line>11</line>
+  <module>DisasterResponseApp1.0.app.androidTest</module>
+  <package>com.example.disasterresponseapp10</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.ExampleInstrumentedTest" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>3</length>
+  <highlighted_element>/**</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/androidTest/java/com/example/disasterresponseapp10/ExampleInstrumentedTest.kt</file>
+  <line>18</line>
+  <module>DisasterResponseApp1.0.app.androidTest</module>
+  <package>com.example.disasterresponseapp10</package>
+  <entry_point TYPE="method" FQNAME="com.example.disasterresponseapp10.ExampleInstrumentedTest void useAppContext()" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>5</length>
+  <highlighted_element>@Test</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Method is never used.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/BaseDashboardFragment.kt</file>
+  <line>10</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.BaseDashboardFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>51</length>
+  <highlighted_element>abstract class BaseDashboardFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Abstract&amp;nbsp;class is not implemented.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/MainActivity.kt</file>
+  <line>17</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.MainActivity" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>42</length>
+  <highlighted_element>class MainActivity : AppCompatActivity() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/adapters/CommunicationPagerAdapter.kt</file>
+  <line>20</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.adapters</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.adapters.BaseCommunicationSection" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>25</length>
+  <highlighted_element>// Communication Sections</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Abstract&amp;nbsp;class is not implemented.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/adapters/CommunicationPagerAdapter.kt</file>
+  <line>35</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.adapters</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.adapters.NotifySection" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>50</length>
+  <highlighted_element>class NotifySection : BaseCommunicationSection() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class has one instantiation, but the instantiation is not reachable from the entry points.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/adapters/CommunicationPagerAdapter.kt</file>
+  <line>43</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.adapters</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.adapters.TeamSection" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>48</length>
+  <highlighted_element>class TeamSection : BaseCommunicationSection() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class has one instantiation, but the instantiation is not reachable from the entry points.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/adapters/CommunicationPagerAdapter.kt</file>
+  <line>51</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.adapters</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.adapters.CommunitySection" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>53</length>
+  <highlighted_element>class CommunitySection : BaseCommunicationSection() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class has one instantiation, but the instantiation is not reachable from the entry points.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/adapters/EmergencyContactsSection.kt</file>
+  <line>3</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.adapters</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.adapters.EmergencyContactsSection" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>61</length>
+  <highlighted_element>class EmergencyContactsSection : BaseCommunicationSection() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/dialogs/AddResourceDialog.kt</file>
+  <line>14</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.dialogs</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.resources.AddResourceDialog" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>44</length>
+  <highlighted_element>class AddResourceDialog : DialogFragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class has one instantiation, but the instantiation is not reachable from the entry points.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/communication/CommunicationFragment.kt</file>
+  <line>17</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.communication</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.communication.CommunicationFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>42</length>
+  <highlighted_element>class CommunicationFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/communication/CommunityUpdatesFragment.kt</file>
+  <line>10</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.communication</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.communication.CommunityUpdatesFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>45</length>
+  <highlighted_element>class CommunityUpdatesFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/communication/TeamChatFragment.kt</file>
+  <line>10</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.communication</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.communication.TeamChatFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>37</length>
+  <highlighted_element>class TeamChatFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/communication/UnifiedCommunicationFragment.kt</file>
+  <line>20</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.communication</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.communication.UnifiedCommunicationFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>49</length>
+  <highlighted_element>class UnifiedCommunicationFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/dashboard/CivilianDashboardFragment.kt</file>
+  <line>19</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.dashboard</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.dashboard.CivilianDashboardFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>59</length>
+  <highlighted_element>class CivilianDashboardFragment : BaseDashboardFragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class has one instantiation, but the instantiation is not reachable from the entry points.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/dashboard/CoordinatorDashboardFragment.kt</file>
+  <line>21</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.dashboard</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.dashboard.CoordinatorDashboardFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>62</length>
+  <highlighted_element>class CoordinatorDashboardFragment : BaseDashboardFragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class has one instantiation, but the instantiation is not reachable from the entry points.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/dashboard/ResponseTeamDashboardFragment.kt</file>
+  <line>17</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.dashboard</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.dashboard.ResponseTeamDashboardFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>61</length>
+  <highlighted_element>class responseTeamDashboardFragment : BaseDashboardFragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class has one instantiation, but the instantiation is not reachable from the entry points.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/donations/DonationsFragment.kt</file>
+  <line>11</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.donations</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.donations.DonationsFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>38</length>
+  <highlighted_element>class DonationsFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/family/EmergencyContactsFragment.kt</file>
+  <line>10</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.family</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.family.EmergencyContactsFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>46</length>
+  <highlighted_element>class EmergencyContactsFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/family/NotifyFamilyFragment.kt</file>
+  <line>17</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.family</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.family.NotifyFamilyFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>47</length>
+  <highlighted_element>class NotifyFamilyFragment : DialogFragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/navigation/RouteNavigationFragment.kt</file>
+  <line>12</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.navigation</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.navigation.RouteNavigationFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>44</length>
+  <highlighted_element>class RouteNavigationFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/notifications/NotificationsFragment.kt</file>
+  <line>24</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.notifications</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.notifications.NotificationsFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>42</length>
+  <highlighted_element>class NotificationsFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/response/ResponseOperationsFragment.kt</file>
+  <line>13</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.response</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.response.ResponseOperationsFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>45</length>
+  <highlighted_element>class responseOperationsFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/response/ResponseTeamFragment.kt</file>
+  <line>15</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.response</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.response.ResponseTeamFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>39</length>
+  <highlighted_element>class responseTeamFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/response/TeamManagementFragment.kt</file>
+  <line>10</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.response</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.response.TeamManagementFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>43</length>
+  <highlighted_element>class TeamManagementFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/resources/AddResourceFragment.kt</file>
+  <line>15</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.resources</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.resources.AddResourceFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>40</length>
+  <highlighted_element>class AddResourceFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/resources/DeliveriesFragment.kt</file>
+  <line>13</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.resources</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.resources.DeliveriesFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>39</length>
+  <highlighted_element>class DeliveriesFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/resources/ResourceDetailFragment.kt</file>
+  <line>12</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.resources</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.resources.ResourceDetailFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>43</length>
+  <highlighted_element>class ResourceDetailFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/resources/UnifiedResourceFragment.kt</file>
+  <line>24</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.resources</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.resources.UnifiedResourceFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>44</length>
+  <highlighted_element>class UnifiedResourceFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/sos/SOSFragment.kt</file>
+  <line>16</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.sos</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.sos.SOSFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>38</length>
+  <highlighted_element>class SOSFragment : DialogFragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/userManagement/LoginFragment.kt</file>
+  <line>11</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.userManagement</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.userManagement.LoginFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>34</length>
+  <highlighted_element>class LoginFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/fragments/userManagement/UserProfileFragment.kt</file>
+  <line>11</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.fragments.userManagement</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.fragments.userManagement.UserProfileFragment" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>40</length>
+  <highlighted_element>class UserProfileFragment : Fragment() {</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/models/Resource.kt</file>
+  <line>6</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.models</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.models.Resource" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>10</length>
+  <highlighted_element>@Parcelize</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class has 3 instantiations, but the instantiations are not reachable from the entry points.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/models/Resource.kt</file>
+  <line>18</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.models</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.models.Resource.ResourceType" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>10</length>
+  <highlighted_element>@Parcelize</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Enum is never used.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/models/Resource.kt</file>
+  <line>23</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.models</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.models.Resource.Status" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>10</length>
+  <highlighted_element>@Parcelize</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Enum is never used.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/models/Resource.kt</file>
+  <line>28</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.models</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.models.Resource.Location" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>10</length>
+  <highlighted_element>@Parcelize</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class has 3 instantiations, but the instantiations are not reachable from the entry points.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/main/java/com/example/disasterresponseapp10/models/Resource.kt</file>
+  <line>35</line>
+  <module>DisasterResponseApp1.0.app.main</module>
+  <package>com.example.disasterresponseapp10.models</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.models.Resource.Capacity" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>10</length>
+  <highlighted_element>@Parcelize</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class has 3 instantiations, but the instantiations are not reachable from the entry points.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/test/java/com/example/disasterresponseapp10/ExampleUnitTest.kt</file>
+  <line>7</line>
+  <module>DisasterResponseApp1.0.app.unitTest</module>
+  <package>com.example.disasterresponseapp10</package>
+  <entry_point TYPE="class" FQNAME="com.example.disasterresponseapp10.ExampleUnitTest" />
+  <language>kotlin</language>
+  <offset>0</offset>
+  <length>3</length>
+  <highlighted_element>/**</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Class is not instantiated.</description>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/app/src/test/java/com/example/disasterresponseapp10/ExampleUnitTest.kt</file>
+  <line>13</line>
+  <module>DisasterResponseApp1.0.app.unitTest</module>
+  <package>com.example.disasterresponseapp10</package>
+  <entry_point TYPE="method" FQNAME="com.example.disasterresponseapp10.ExampleUnitTest void addition_isCorrect()" />
+  <language>kotlin</language>
+  <offset>4</offset>
+  <length>5</length>
+  <highlighted_element>@Test</highlighted_element>
+  <problem_class id="" severity="WARNING" attribute_key="NOT_USED_ELEMENT_ATTRIBUTES">unused declaration</problem_class>
+  <hints>
+    <hint value="comment" />
+    <hint value="delete" />
+  </hints>
+  <description>Method is never used.</description>
+</problem>
+</problems>

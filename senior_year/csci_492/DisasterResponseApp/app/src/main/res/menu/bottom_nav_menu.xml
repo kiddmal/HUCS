@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/civilianDashboardFragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/nav_home" />
+
+    <item
+        android:id="@+id/unifiedResourceFragment"
+        android:icon="@drawable/ic_resources"
+        android:title="@string/nav_resources" />
+
+    <item
+        android:id="@id/unifiedCommunicationFragment"
+        android:icon="@drawable/ic_communication"
+        android:title="@string/nav_communication" />
+
+    <item
+        android:id="@+id/routeNavigationFragment"
+        android:icon="@drawable/ic_route"
+        android:title="@string/route_navigation" />
+
+</menu>

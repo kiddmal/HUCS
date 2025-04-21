@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "979174915627",
+    "project_id": "disasterresponseapp-b07ed",
+    "storage_bucket": "disasterresponseapp-b07ed.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979174915627:android:11bc97fe7a571f2577b46e",
+        "android_client_info": {
+          "package_name": "com.example.disasterresponseapp10"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_E-3OZMCPWgeie6IqULBVmsTmGxUnaqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

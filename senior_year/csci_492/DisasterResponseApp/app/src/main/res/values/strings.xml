@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">DisasterResponseApp1.0</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_resources">Resources</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_home">Home</string>
+
+    <!-- Dashboard Categories -->
+    <string name="category_emergency_services">Emergency Services</string>
+    <string name="category_resources_aid">Resources &amp; Aid</string>
+    <string name="category_communication">Communication</string>
+
+
+    <!-- Coordinator Dashboard Strings -->
+    <string name="coordinator_dashboard">Coordinator Dashboard</string>
+    <string name="permission_denied_coordinator">You don\'t have permission to access the coordinator dashboard</string>
+
+    <!-- User Dashboard -->
+    <string name="emergency_actions">Emergency Actions</string>
+    <string name="find_shelter">Find Shelter</string>
+    <string name="send_sos">Send SOS</string>
+
+    <!-- Deliveries -->
+
+    <!-- Notifications -->
+    <string name="notifications">Notifications</string>
+    <string name="no_notifications">No notifications available</string>
+
+    <!-- SOS -->
+    <string name="medical_emergency">Medical Emergency</string>
+    <string name="trapped">Trapped</string>
+    <string name="need_evacuation">Need Evacuation</string>
+    <string name="describe_emergency">Describe your emergency</string>
+
+    <!-- Communication Fragment Strings-->
+    <string name="safety_check">Safety Check</string>
+    <string name="safety_check_description">Notify family members about your status</string>
+
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="emergency_contacts_description">Manage your emergency contact list</string>
+
+    <string name="community_updates">Community Updates</string>
+    <string name="community_updates_description">Stay informed with local community updates</string>
+
+    <!--Dashboard Authentication-->
+    <string name="auth_required">Authentication Required</string>
+    <string name="auth_required_message">Please login to access this feature</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+
+
+    <!-- Category Descriptions -->
+    <string name="category_emergency_description">Access emergency services and immediate assistance</string>
+    <string name="category_resources_description">Find and request resources and aid</string>
+    <string name="category_communication_description">Connect with emergency contacts and teams</string>
+
+
+    <!-- Role-specific Dashboard strings -->
+    <string name="response_operations">response Operations</string>
+    <string name="response_operations_description">Manage active response missions and emergency response</string>
+    <string name="resource_management">Resource Management</string>
+    <string name="resource_management_description">Manage and track emergency resources</string>
+    <string name="team_chat">Team Chat</string>
+    <string name="team_chat_description">Communicate with team members</string>
+    <string name="operations_overview">Operations Overview</string>
+    <string name="operations_overview_description">Monitor all active operations</string>
+    <string name="team_management">Team Management</string>
+    <string name="team_management_description">Manage response teams and assignments</string>
+    <string name="resource_allocation">Resource Allocation</string>
+    <string name="resource_allocation_description">Allocate resources to operations</string>
+    <string name="analytics">Analytics</string>
+
+    <!-- Emergency Services strings -->
+
+    <!-- SOS strings -->
+    <string name="sos_sent_successfully">SOS sent successfully</string>
+    <string name="error_sending_sos">Error sending SOS</string>
+
+    <!-- Resource strings -->
+    <string name="find_resources">Find Resources</string>
+
+        <!-- Notification strings -->
+    <string name="error_loading_notifications">Error loading notifications</string>
+    <string name="family_notified_successfully">Family notified successfully</string>
+    <string name="error_notifying_family">Error notifying family</string>
+    <string name="safe_message_template">I am safe and well</string>
+    <string name="need_help_message_template">I need assistance</string>
+
+    <!-- Common strings -->
+    <string name="retry">Retry</string>
+    <string name="resources">Resources</string>
+
+    <!-- Route Planning -->
+    <string name="route_planning">Route Planning</string>
+    <string name="route_planning_description">Plan and optimize response routes</string>
+
+    <!-- Team Coordination -->
+    <string name="team_coordination">Team Coordination</string>
+    <string name="team_coordination_description">Coordinate with response teams</string>
+
+    <!-- Dashboard Analytics -->
+    <string name="analytics_description">View operational metrics and insights</string>
+
+    <!-- Communication -->
+
+    <!-- Emergency -->
+
+    <!-- Status Messages -->
+    <string name="resource_added_successfully">Resource added successfully</string>
+    <string name="requires_admin_permission">This action requires Administrator privileges.</string>
+    <string name="permission_denied_response_team">You don\\\'t have permission to access response team features</string>
+    <string name="switch_role">Switch User Role</string>
+    <string name="route_navigation">Map</string>
+    <string name="add_resource">Add Resource</string>
+    <string name="nav_communication">Chat</string>
+    <string name="exit_app">Exit App</string>
+    <string name="exit_confirmation">Are you sure you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="SOS_button">SOS Button</string>
+    <string name="logout">Logout</string>
+    <!--User Management-->
+    <string name="no_users">No users found</string>
+    <string name="add_user">Add User</string>
+    <string name="edit_user">Edit User</string>
+    <string name="delete_user">Delete User</string>
+    <string name="delete_user_confirmation">Are you sure you want to delete %1$s?</string>
+    <string name="permission_denied_message">You don\'t have permission to manage users</string>
+    <string name="delete">Are you sure you want to delete this user?</string>
+    <string name="user_management">User Management</string>
+    <string name="user_management_description">Manage user accounts and permissions</string>
+    <string name="user_not_logged_in">User Not Logged In</string>
+
+</resources>
+

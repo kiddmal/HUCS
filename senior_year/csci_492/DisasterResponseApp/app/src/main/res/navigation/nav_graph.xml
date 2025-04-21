@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <!-- Authentication -->
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.disasterresponseapp10.fragments.userManagement.LoginFragment"
+        android:label="Login">
+        <action
+            android:id="@+id/action_login_to_civilianDashboard"
+            app:destination="@id/civilianDashboardFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_login_to_responseTeamDashboard"
+            app:destination="@id/responseTeamDashboardFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_login_to_coordinatorDashboard"
+            app:destination="@id/coordinatorDashboardFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <!-- Add navigation to sign up -->
+        <action
+            android:id="@+id/action_login_to_signUp"
+            app:destination="@id/signUpFragment"
+            app:enterAnim="@anim/slide_up"
+            app:exitAnim="@anim/slide_down" />
+    </fragment>
+
+    <!-- Sign Up Fragment -->
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.disasterresponseapp10.fragments.userManagement.SignUpFragment"
+        android:label="Sign Up">
+        <action
+            android:id="@+id/action_signUp_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/signUpFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Role-Based Dashboards -->
+    <fragment
+        android:id="@+id/civilianDashboardFragment"
+        android:name="com.example.disasterresponseapp10.fragments.dashboard.CivilianDashboardFragment"
+        android:label="Civilian Dashboard">
+
+        <action
+            android:id="@+id/action_civilianDashboard_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/civilianDashboardFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_dashboard_to_resources"
+            app:destination="@id/unifiedResourceFragment"/>
+<!--        <action-->
+<!--            android:id="@+id/action_dashboard_to_emergencyServices"-->
+<!--            app:destination="@id/emergencyServicesFragment"/>-->
+        <action
+            android:id="@+id/action_dashboard_to_communication"
+            app:destination="@id/unifiedCommunicationFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/responseTeamDashboardFragment"
+        android:name="com.example.disasterresponseapp10.fragments.dashboard.ResponseTeamDashboardFragment"
+        android:label="response Team Dashboard">
+        <action
+            android:id="@+id/action_responseTeamDashboard_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/responseTeamDashboardFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_response_to_operations"
+            app:destination="@id/responseOperationsFragment"/>
+        <action
+            android:id="@+id/action_response_to_team"
+            app:destination="@id/teamManagementFragment"/>
+        <action
+            android:id="@+id/action_responseTeam_to_routeNavigation"
+            app:destination="@id/routeNavigationFragment"/>
+<!--        <action-->
+<!--            android:id="@+id/action_responseTeam_to_teamCoordination"-->
+<!--            app:destination="@id/teamCoordinationFragment"/>-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/coordinatorDashboardFragment"
+        android:name="com.example.disasterresponseapp10.fragments.dashboard.CoordinatorDashboardFragment"
+        android:label="Coordinator Dashboard">
+        <action
+            android:id="@+id/action_coordinatorDashboard_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/coordinatorDashboardFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_coordinator_to_operations"
+            app:destination="@id/responseOperationsFragment"/>
+        <action
+            android:id="@+id/action_coordinator_to_team"
+            app:destination="@id/teamManagementFragment"/>
+        <action
+            android:id="@+id/action_coordinatorDashboard_to_userList"
+            app:destination="@id/userListFragment" />
+<!--        <action-->
+<!--            android:id="@+id/action_coordinatorDashboard_to_analytics"-->
+<!--            app:destination="@id/analyticsFragment"/>-->
+    </fragment>
+
+    <!-- Core Features -->
+    <fragment
+        android:id="@+id/unifiedResourceFragment"
+        android:name="com.example.disasterresponseapp10.fragments.resources.UnifiedResourceFragment"
+        android:label="Resources">
+        <deepLink app:uri="disasterresponse://resources" />
+        <action
+            android:id="@+id/action_resources_to_details"
+            app:destination="@id/resourceDetailFragment"/>
+        <action
+            android:id="@+id/action_resources_to_deliveries"
+            app:destination="@id/deliveriesFragment"/>
+        <action
+            android:id="@+id/action_resources_to_donations"
+            app:destination="@id/donationsFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/resourceDetailFragment"
+        android:name="com.example.disasterresponseapp10.fragments.resources.ResourceDetailFragment"
+        android:label="Resource Details">
+        <argument
+            android:name="resource"
+            app:argType="com.example.disasterresponseapp10.models.Resource"/>
+    </fragment>
+
+<!--    <fragment-->
+<!--        android:id="@+id/emergencyServicesFragment"-->
+<!--        android:name="com.example.disasterresponseapp10.fragments.emergency.EmergencyServicesFragment"-->
+<!--        android:label="Emergency Services">-->
+<!--        <action-->
+<!--            android:id="@+id/action_emergencyServices_to_sos"-->
+<!--            app:destination="@id/sosFragment"/>-->
+<!--        <action-->
+<!--            android:id="@+id/action_emergencyServices_to_medicalHelp"-->
+<!--            app:destination="@id/medicalHelpFragment"/>-->
+<!--        <action-->
+<!--            android:id="@+id/action_emergencyServices_to_supplies"-->
+<!--            app:destination="@id/suppliesFragment"/>-->
+<!--    </fragment>-->
+
+    <fragment
+        android:id="@+id/unifiedCommunicationFragment"
+        android:name="com.example.disasterresponseapp10.fragments.communication.UnifiedCommunicationFragment"
+        android:label="Communication">
+        <action
+            android:id="@+id/action_communication_to_notify"
+            app:destination="@id/notifyFamilyFragment"/>
+        <action
+            android:id="@+id/action_communication_to_contacts"
+            app:destination="@id/emergencyContactsFragment"/>
+        <action
+            android:id="@+id/action_communication_to_team"
+            app:destination="@id/teamChatFragment"/>
+        <action
+            android:id="@+id/action_communication_to_login"
+            app:destination="@id/loginFragment"/>
+    </fragment>
+
+    <!-- Support Features -->
+    <!--Admin User Management -->
+    <fragment
+        android:id="@+id/userListFragment"
+        android:name="com.example.disasterresponseapp10.fragments.userManagement.UserListFragment"
+        android:label="User Management">
+        <action
+            android:id="@+id/action_userList_to_dashboard"
+            app:destination="@id/coordinatorDashboardFragment"
+            app:popUpTo="@id/userListFragment"
+            app:popUpToInclusive="true" />
+
+        <!-- Dialog navigation -->
+<!--        <dialog-->
+<!--            android:id="@+id/addUserDialog"-->
+<!--            android:name="com.example.disasterresponseapp10.fragments.userManagement.AddUserDialog"-->
+<!--            android:label="Add User" />-->
+
+<!--        &lt;!&ndash; Deep linking &ndash;&gt;-->
+<!--        <deepLink app:uri="disasterresponse://users" />-->
+
+<!--        &lt;!&ndash; Arguments for edit mode &ndash;&gt;-->
+<!--        <argument-->
+<!--            android:name="editUser"-->
+<!--            app:argType="com.example.disasterresponseapp10.models.User"-->
+<!--            app:nullable="true"-->
+<!--            android:defaultValue="@null" />-->
+    </fragment>
+
+    <!-- Add User Dialog -->
+    <dialog
+        android:id="@+id/addUserDialog"
+        android:name="com.example.disasterresponseapp10.fragments.userManagement.AddUserDialog"
+        android:label="Add User">
+        <action
+            android:id="@+id/action_addUserDialog_to_userList"
+            app:destination="@id/userListFragment"
+            app:popUpTo="@id/addUserDialog"
+            app:popUpToInclusive="true" />
+    </dialog>
+    <fragment
+        android:id="@+id/deliveriesFragment"
+        android:name="com.example.disasterresponseapp10.fragments.resources.DeliveriesFragment"
+        android:label="Deliveries"/>
+
+    <fragment
+        android:id="@+id/donationsFragment"
+        android:name="com.example.disasterresponseapp10.fragments.donations.DonationsFragment"
+        android:label="Donations"/>
+
+    <fragment
+        android:id="@+id/teamManagementFragment"
+        android:name="com.example.disasterresponseapp10.fragments.response.TeamManagementFragment"
+        android:label="Team Management"/>
+
+    <fragment
+        android:id="@+id/responseOperationsFragment"
+        android:name="com.example.disasterresponseapp10.fragments.response.ResponseOperationsFragment"
+        android:label="response Operations"/>
+
+    <dialog
+        android:id="@+id/sosFragment"
+        android:name="com.example.disasterresponseapp10.fragments.sos.SOSFragment"
+        android:label="SOS Alert"/>
+
+    <!-- Communications -->
+    <fragment
+        android:id="@+id/notifyFamilyFragment"
+        android:name="com.example.disasterresponseapp10.fragments.family.NotifyFamilyFragment"
+        android:label="Notify Family">
+        <action
+            android:id="@+id/action_notifyFamily_to_contacts"
+            app:destination="@id/emergencyContactsFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/emergencyContactsFragment"
+        android:name="com.example.disasterresponseapp10.fragments.family.EmergencyContactsFragment"
+        android:label="Emergency Contacts"/>
+
+    <fragment
+        android:id="@+id/teamChatFragment"
+        android:name="com.example.disasterresponseapp10.fragments.communication.TeamChatFragment"
+        android:label="Team Chat"/>
+
+    <fragment
+        android:id="@+id/communityUpdatesFragment"
+        android:name="com.example.disasterresponseapp10.fragments.communication.CommunityUpdatesFragment"
+        android:label="Community Updates"/>
+
+    <!-- Navigation Drawer -->
+    <fragment
+        android:id="@+id/notificationsFragment"
+        android:name="com.example.disasterresponseapp10.fragments.notifications.NotificationsFragment"
+        android:label="Notifications">
+        <action
+            android:id="@+id/action_notifications_to_resources"
+            app:destination="@id/unifiedResourceFragment"/>
+<!--        <action-->
+<!--            android:id="@+id/action_notifications_to_emergencyServices"-->
+<!--            app:destination="@id/emergencyServicesFragment"/>-->
+        <action
+            android:id="@+id/action_notifications_to_deliveries"
+            app:destination="@id/deliveriesFragment"/>
+        <action
+            android:id="@+id/action_notifications_to_notifyFamily"
+            app:destination="@id/notifyFamilyFragment"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/userProfileFragment"
+        android:name="com.example.disasterresponseapp10.fragments.userManagement.UserProfileFragment"
+        android:label="User Profile"/>
+
+    <!-- Additional Features -->
+<!--    <fragment-->
+<!--        android:id="@+id/analyticsFragment"-->
+<!--        android:name="com.example.disasterresponseapp10.fragments.coordinator.AnalyticsFragment"-->
+<!--        android:label="Analytics"/>-->
+
+    <fragment
+        android:id="@+id/routeNavigationFragment"
+        android:name="com.example.disasterresponseapp10.fragments.navigation.RouteNavigationFragment"
+        android:label="Route Navigation"/>
+
+<!--    <fragment-->
+<!--        android:id="@+id/teamCoordinationFragment"-->
+<!--        android:name="com.example.disasterresponseapp10.fragments.response.TeamCoordinationFragment"-->
+<!--        android:label="Team Coordination"/>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/medicalHelpFragment"-->
+<!--        android:name="com.example.disasterresponseapp10.fragments.emergency.MedicalHelpFragment"-->
+<!--        android:label="Medical Help"/>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/suppliesFragment"-->
+<!--        android:name="com.example.disasterresponseapp10.fragments.emergency.SuppliesFragment"-->
+<!--        android:label="Supplies"/>-->
+
+    <!-- Global Actions -->
+    <action
+        android:id="@+id/action_global_to_dashboard"
+        app:destination="@id/civilianDashboardFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true"/>
+
+    <action
+        android:id="@+id/action_global_to_login"
+        app:destination="@id/loginFragment"
+        app:popUpTo="@id/nav_graph"
+        app:popUpToInclusive="true" />
+
+    <action
+        android:id="@+id/action_global_to_sos"
+        app:destination="@id/sosFragment"/>
+
+</navigation>
