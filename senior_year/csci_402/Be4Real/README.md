@@ -8,22 +8,34 @@ Time spent: **8** hours spent in total
 
 ## Required Features
 
-The following **required** functionality is completed:
+Project 2: The following **required** functionality is completed:
 
 - [X] Users see an app icon in the home screen and a styled launch screen.
 - [X] User can register a new account
 - [X] User can log in with newly created account
 - [X] App has a feed of posts when user logs in
 - [X] User can upload a new post which takes in a picture from photo library and an optional caption    
-- [ ] User is able to logout    
+- [X] User is able to logout    
+
+Project 3: The following **required** functionality is completed:
+
+- [X] User can launch camera to take photo instead of photo library
+- [X] Users without iPhones to demo this feature can manually add unique photos to their simulator's Photos app
+- [X] Users are not able to see other users’ photos until they upload their own.
+- [ ] Users can intereact with posts via comments, comments will have user data such as username and name
+- [X] Posts have a time and location attached to them
+- [X] Users are not able to see other photos until they post their own (within 24 hours)	
  
-The following **optional** features are implemented:
+Project 2: The following **optional** features are implemented:
 
 - [X] Users can pull to refresh their feed and see a loading indicator
 - [X] Users can infinite-scroll in their feed to see past the 10 most recent photos
 - [X] Users can see location and time of photo upload in the feed    
-- [X] User stays logged in when app is closed and open again    
+- [X] User stays logged in when app is closed and open again
 
+Project 3: The following **optional** features are implemented:
+
+- [ ] User receive notifcation when it is time to post
 
 The following **additional** features are implemented:
 
